@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Profile</title>
+    
+    <style>
+        fieldset{
+            border-radius: 30px;
+            width: 65%;
+            margin: 10px auto;
+            background-color: lightblue;
+
+        }
+        legend{
+            font-style: italic;
+            color:brown;
+        }
+        #sub:hover{
+           background-color: brown;
+        }
+        
+        h1{
+            font-style: oblique;
+        }
+        label{
+            font-size: large;
+            width: 170px;
+            display: inline-block;
+            color: blue;
+        }
+
+        body{
+            background-color: grey;
+        }
+        
+
+        
+    </style>
+
+</head>
+<body bgcolor="B4B4B3">
+    <center><legend><h1>APPLICATION FORM</h1></legend></center>
+    <form action="Submitted.html" target="_blank">
+        <fieldset>
+            <legend><h1>Personal Details</h1></legend>
+            <label for="Full Name">Full Name</label>
+            <input type="text"  placeholder="Enter the Name" id="Full Name" name="Full Name">
+
+            <br><br>
+            <label for="Email">Email</label>
+            <input type="text"  placeholder="Enter the Email" id="Email" name="Email">
+
+            <br><br>
+            <label for="Mobile Number">Mobile Number</label>
+            <input type="text" placeholder="Enter the Number" id="Mobile Number" name="Mobile Number">
+            
+            <br><br>
+            <label for="Persent Address">Present Address</label>
+            <input type="text" id="Address" name="Address">
+
+            <br><br>
+            <label for="Permanent Address">Permanent Address</label>
+            <input type="text"  id="Address" name="Address">
+            
+            
+            <br><br>
+            <label for="City">City</label>
+            <input type="text"  id="City" name="City">
+        </fieldset>
+
+        <fieldset>
+            <legend><h1>Parents Details</h1></legend>
+            <label for="Father Name">Fathers Name</label>
+            <input type="text" id="Father Name" name="Father Name">
+            
+            <br><br>
+            <label for="Mother Name">Mother Name</label>
+            <input type="text"  id="Mother Name" name="Mother Name">
+
+            <br><br>
+            <label for="Mobile Number">Mobiler Number</label>
+            <input type="text"  name="Mobile Number" id="Mobile Number">
+
+        </fieldset>
+
+        <fieldset>
+            <legend><h1>Education Details</h1></legend>
+             <label for="SSLC">SSLC</label>
+             <input list="YOP" name="SSLC" id="SSLC">
+             <datalist id="YOP">
+                <option >2016</option>
+                <option >2017</option>
+                <option >2018</option>
+                <option >2019</option>
+                <option >2020</option>
+             </datalist>
+             <br><br>
+             <label for="SSLC %">SSLC %</label>
+             <input type="text" id="SSLC %" name="SSLC %">
+
+             <br><br>
+             <label for="PUC">PUC</label>
+             <input list="YOP" name="YOP" id="PUC">
+             <datalist id="YOP">
+                <option >2016</option>
+                <option >2017</option>
+                <option >2018</option>
+                <option >2019</option>
+                <option >2020</option>
+             </datalist>
+             <br><br>
+             <label for="PUC %">PUC %</label>
+             <input type="text" id="PUC %" name="PUC %">
+
+             <br><br>
+             <label for="B.E">B.E</label>
+             <input list="YOP" name="YOP" id="B.E">
+             <datalist id="YOP">
+                <option >2016</option>
+                <option >2017</option>
+                <option >2018</option>
+                <option >2019</option>
+                <option >2020</option>
+                <option >2021</option>
+                <option >2022</option>
+                <option >2023</option>
+             </datalist>
+
+             <br><br>
+             <label for="CGPA">CGPA</label>
+             <input type="text"  name="CGPA" id="CGPA">
+        </fieldset>
+
+        <fieldset>
+            <legend><h1>SKILLS</h1></legend>
+            <label for="Skills">Skills</label>
+            <input list="text"  id="Skills" name="Skills">
+                <datalist id="text">
+                    <option >C Programming</option>
+                    <option >JAVA</option>
+                    <option >Python</option>
+                    <option >HTML</option>
+                    <option >CSS</option>
+                    <option >JAVA Script</option>
+                    <option >NODE JS</option>
+                    
+                </datalist>
+            
+        </fieldset>
+        <center><button type="submit" id="sub">Submit</button></center>
+    </form>
+   
+    
+</body>
+</html>
